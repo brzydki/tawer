@@ -1,0 +1,101 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "My Site",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 4,
+    "versionPublish": "3.12.1",
+    "favicon": "@PROJECT_PATH@/assets/images/w512h5121390845821b512-128x128.png",
+    "noImageResize": "",
+    "cookiesAlert": "",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "15px"
+            },
+            ".mbr-section-title I": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/0.gif",
+            "bgColor": "#41a85f",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "brzydki.xyz",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://steamcommunity.com/id/wow62\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-steam mbr-iconfont mbr-iconfont-btn\"></span>Steam</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://nick-name.ru/nickname/id1354758/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-pages mbr-iconfont mbr-iconfont-btn\"></span>My nickname</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"http://steam.tools/itemvalue/#/wow62-730\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-cash mbr-iconfont mbr-iconfont-btn\"></span>My&nbsp;inventory</a>  "
+        },
+        {
+          "_inherit": "soundcloud1",
+          "alias": "soundcloud",
+          "_tags": [
+            "Extension"
+          ],
+          "soundURL": "url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F328027905",
+          "_name": "soundcloud2",
+          "_anchor": "soundcloud2-2",
+          "_params": {
+            "sound": "https://soundcloud.com/user-312056700/fff",
+            "autoplay": true,
+            "fullWidth": true
+          },
+          "iframeSRC": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F328027905&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+        }
+      ]
+    }
+  }
+}
